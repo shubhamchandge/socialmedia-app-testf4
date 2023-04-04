@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    background: #111111;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+    position: relative;
+    border-bottom: 1px solid #FFFFFF;
+    height: 93px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title h1 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 262px;
+    height: 39px;
+    left: 32px;
+    top: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.post {
+    margin-left: 69px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 50px;
+
+    border: 1px solid red;
+    width: 300px;
+    height: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+
+
+    width: 280px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.texts {
+    font-weight: 400;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+button {
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+
+.heading h1 {
+    position: absolute;
+    width: 788px;
+    height: 58px;
+    left: 32px;
+    top: 128px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.main {
+    position: absolute;
+    width: 383px;
+    height: 383px;
+    left: 32px;
+    top: 245px;
+
+}
+
+.texts1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+h2 {
+    position: absolute;
+    width: 1200px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+
+
 }
